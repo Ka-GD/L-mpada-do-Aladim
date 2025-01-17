@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:wght@100..900&family=Sevillana&family=Zen+Maru+Gothic&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: #fff;
+    font-family: 'Sevillana', cursive; 
+main {
+   
+    background-image: url('./fundo.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img{
+        width: 40vw;
+    }
+    
+    p {
+        font-size: 62px;
+       text-align: center;
+       
+    }
+
+    button{
+        width: 20vw;
+        height: 12vh;
+        border: none;
+        font-size: 40px;
+        background-color: #007BFF;
+        border-radius: 50px;
+    }
+}
+}
+
+@media(max-width:768px){
+
+    main{
+        background-image: url('./fundo.png'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        
+    img{
+        width: 40vw;
+    }
+    
+    p {
+        font-size: 40px;
+       text-align: center;
+       
+    }
+
+    button{
+        width: 30vw;
+        height: 12vh;
+        border: none;
+        font-size: 20px;
+        background-color: #007BFF;
+        border-radius: 20px;
+    }
+    }
+}
