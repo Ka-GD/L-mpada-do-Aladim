@@ -6,11 +6,11 @@ import './assets/app.scss';
 export default function App() {
 
   
-  const [imagemAtual, setImagemAtual] = useState(lampadaImg);
+  const [imagemAtual, setImagemAtual] = useState(lampadaImg); // Estado inicial
 
-  // Função para mudar a imagem
+  // Função para alternar a imagem
   const mudarImagem = () => {
-    setImagemAtual(genio); 
+    setImagemAtual(imagemAtual === lampadaImg ? genio : lampadaImg);
   };
 
   return (
